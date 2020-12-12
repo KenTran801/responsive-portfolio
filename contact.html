@@ -12,44 +12,62 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class="p-3 mb-2 bg-secondary">
-    <header class="container">
-        <nav class="navbar navbar navbar-dark bg-dark">
-            <span class="navbar-brand mb-0 h1">Ken Tran</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <main class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">About</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                </div>
-            </main>
+<body class="p-3 mb-2 bg-secondary container">
+    <nav class="navbar navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1 font-weight-bold">Ken Tran</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <section class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            </section>
         </nav>
+    </nav>
 
-        <section class="jumbotron">
-            <h1 class="display-4">Contact</h1>
-            <hr class="my-4">
-            <form>
-                <section class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="name" class="form-control" id="exampleInputName1" placeholder="Full name">
-                </section>
-                <section class="form-group">
-                    <label for="exampleInputPassword1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
-                </section>
-                <section class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                </section>
-                <button type="submit" class="btn btn-primary">Submit</button>
-        </section>
-        </form>
-        </section>
-    </header>
+    <section class="jumbotron">
+        <h1 class="display-4 font-weight-bold">Contact</h1>
+        <hr class="my-4">
+        <form>
+            <section class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="name" class="form-control" id="exampleInputName1" placeholder="Full name">
+            </section>
+            <section class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+            </section>
+            <section class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </section>
+            <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#exampleModal">Submit</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Info has been submitted!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Thank you for wanting to be my friend! Will reach out within 2-3 business days.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </form>
+    </section>
 
 
     <!-- Optional JavaScript -->
