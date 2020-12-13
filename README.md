@@ -2,7 +2,7 @@
 
 Objective was to create a responsive portfolio with Bootstrap CSS framework. 
 
-Portfolio site includes the following items:
+Portfolio site includes the following items acceptance criteria:
  1. Functional navbar
  2. Responsive layout
  3. Responsive images
