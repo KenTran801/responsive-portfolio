@@ -11,7 +11,7 @@ Portfolio site includes the following items:
 
 Link to repository on GitHub: https://github.com/KenTran801/responsive-portfolio
 
-Link to the deployed link:
+Link to the deployed link: https://kentran801.github.io/responsive-portfolio/
 
 ### Images of Portfolio
 
